@@ -3,4 +3,11 @@
     margin: 0;
     padding: 0;
     background-color: #000000;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'segoe UI';
+}
+
+a{
+    text-decoration: none;
 }
