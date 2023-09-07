@@ -1,20 +1,16 @@
 <div class="container_big-card">
     <div class="big-card__photo">
         <img 
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" 
+        src= "{{ photoCover }}"
         alt="imagem de exemplo"
         height="350px"
 
         >
     </div>
     <div class="big-card__tittle">
-        <h1><a href="#" target="_blank" rel="noopener noreferrer">What is Lorem Ipsum?</a></h1>
+        <h1><a href="#" target="_blank" rel="noopener noreferrer">{{ cardTitle }}</a></h1>
     </div>
     <div class="big-card__description">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            <br>when an unknown printer took a galley of type and scrambled it to make a type 
-            specimen book.
-        </p>
+        <p>{{ cardDescription }}</p>
     </div>
 </div>

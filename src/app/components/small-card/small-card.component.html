@@ -2,21 +2,17 @@
     <div class="container_small-card-content">
         <div class="small-card__photo">
             <img 
-            src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg" 
+            src="{{ photoCover }}" 
             alt="imagem de exemplo"
             height="350px"
     
             >
         </div>
         <div class="small-card__tittle">
-            <h1><a href="#" target="_blank" rel="noopener noreferrer">What is Lorem Ipsum?</a></h1>
+            <h1><a href="#" target="_blank" rel="noopener noreferrer">{{ cardTitle }}</a></h1>
         </div>
         <div class="small-card__description">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                <br>when an unknown printer took a galley of type and scrambled it to make a type 
-                specimen book.
-            </p>
+            <p>{{ cardDescription }}</p>
         </div>
     </div>
     <div class="container_small-card-separator">
