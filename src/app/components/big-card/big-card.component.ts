@@ -9,10 +9,15 @@ export class BigCardComponent {
 
   @Input()
   photoCover:String = "";
+
   @Input()
   cardTitle:String = "";
+
   @Input()
   cardDescription:String = "";
+
+  @Input()
+  id:String = "0";
 
   constructor(){}
 

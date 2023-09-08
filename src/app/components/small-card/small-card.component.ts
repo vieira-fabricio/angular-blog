@@ -16,6 +16,9 @@ export class SmallCardComponent {
   @Input()
   cardDescription:String = "";
 
+  @Input()
+  id:String = "0";
+
   constructor(){}
 
 }
