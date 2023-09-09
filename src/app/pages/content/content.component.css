@@ -20,4 +20,11 @@
 .content__description > p{ 
     color: gray;
     margin-top: 10px;
+    width: 1200px;
+}
+
+.content__main > p{
+    width: 1200px;
+    height: 70px;
+    margin-top: 20px;
 }

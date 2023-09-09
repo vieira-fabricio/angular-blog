@@ -12,6 +12,8 @@ export class ContentComponent implements OnInit{
   photoCover:String = "";
   contentTitle:String = "";
   contentDescription:String = "";
+  content:String = "";
+  content2:String | undefined = "";
   private id:String | null = "0";
 
   constructor(private route:ActivatedRoute){
@@ -33,6 +35,8 @@ export class ContentComponent implements OnInit{
     this.contentTitle = result.title
     this.contentDescription = result.description
     this.photoCover = result.photoCover
+    this.content = result.content;
+    this.content2 = result.content2;
   }
 
 }

@@ -1,6 +1,5 @@
 .container_big-card{ 
-    width: 455px;
-    heidth: 500px;
+  
     margin-left: 20px;
     margin-right: 20px;
 
@@ -10,7 +9,7 @@
     justify-content: flex-start;
 }
 
-.container_big-tittle{
+.big-card__tittle{
     margin-top: 10px;
     font-size: 10px;
 }
